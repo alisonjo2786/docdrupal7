@@ -1,0 +1,195 @@
+Patches:
+Issue with Joyride module http://drupal.org/node/1932136
+Patch from comment: http://drupal.org/node/1932136#comment-7129490
+http://drupal.org/files/joyride-clear-cache-fix-1932136-7129412.patch
+
+http://drupal.org/files/766264-18-alter-override.patch
+
+Issue with OpenLayers module http://drupal.org/node/1458930
+Patch from comment: http://drupal.org/node/1458930#comment-7204524
+http://drupal.org/files/openlayers-osm-protocol-relative-fix-1458930-11.patch
+
+Issue with Field Collections module not exposing relationship in Panels http://drupal.org/node/1679328
+Patch from comment: http://drupal.org/node/1679328#comment-6986590
+http://drupal.org/files/field_collection-1679328-1.patch
+
+Issue with Workbench moderation not exporting states/transitions to Features
+Patch from comment: http://drupal.org/node/1314508#comment-7166700
+http://drupal.org/files/workbench_moderation-featuresint-state-transition-1314508-57.patch
+
+Issue with openlayers locator Feature export of zoomtolayer setting http://drupal.org/node/1968044
+Patch from comment: http://drupal.org/node/1968044#comment-7288474
+http://drupal.org/files/ol_locator-zoomtolayer-array-1968044-2.patch
+
+Issue with Autocomplete Deluxe incorrectly handling multiple values http://drupal.org/node/1940646
+Patch from comment: http://drupal.org/node/1940646#comment-7294252
+http://drupal.org/files/autocomplete_deluxe-delete-issues-1940646-3.patch
+
+Issue with Openid SSO Relying and the destination URL parameter http://drupal.org/node/1967908
+Patch from comment: http://drupal.org/node/1967908#comment-7287536
+http://drupal.org/files/openid_sso_relying-destination-typo-1967908-1.patch
+
+Issue with Field Collection not saving data on entity edit http://drupal.org/node/1807460
+Patch from comment: http://drupal.org/node/1807460#comment-6577270
+http://drupal.org/files/field_collection_with_workbench_moderation-1807460-1.patch
+
+Issue with workbench_moderation not allowing default publish content types http://drupal.org/node/1408858?mode=2&sort=2
+Patch from comment:  http://drupal.org/node/1408858#comment-6119398
+http://drupal.org/files/default-moderation-state-1408858-12.patch
+
+Issue with joyride module not working with ctype context
+Code from: http://drupal.org/node/1920980#comment-7383028 (no patch available)
+
+Issue with workbench_moderation incorrectly transitioning moderation states http://drupal.org/node/1436260
+Patch from comment:  https://drupal.org/node/1436260#comment-7506957
+https://drupal.org/files/workbench_moderation-1436260-20.patch
+
+Make file_hash module ignore youtube embeds when it tries to validate for dupes
+Patch from comment: https://drupal.org/node/2045335#comment-7798245
+https://drupal.org/files/file_hash_ignore_youtube_embed_2045335-1.patch
+
+Issue with views_xml_backend to allow HTTP headers to be added for USAJobs API https://drupal.org/node/2076527
+Patch from comment: https://drupal.org/node/2076527#comment-7851505
+https://drupal.org/files/views_xml_backend-http-headers-option-2076527-3.patch
+
+auto_entitylabel: leading/trailing whitespace on auto-generated labels: https://drupal.org/node/2120055
+Temporary patch, see Wrike task for details: https://www.wrike.com/open.htm?id=17203957
+sites/all/modules/contrib/auto_entitylabel/auto_entitylabel-trim-processed-label.patch
+
+Issue with Joyride restarting on AJAX call: https://drupal.org/node/2087029
+Patch from main ticket.
+https://drupal.org/files/0001-don-t-restart-on-ajax-calls.patch
+
+Media-YouTube needs to check for high res preview image
+Patch from comment: https://drupal.org/comment/8238559#comment-8238559
+https://drupal.org/files/issues/media_youtube-highres-thumbnails-1893388-16.patch
+
+OG Webform patch to make it work with OG 2.x
+Patch from comment: https://drupal.org/comment/7262304#comment-7262304
+https://drupal.org/files/og_webform_api2-1946432_0.patch
+Also requires git code of module as of 3/3/2012 or -dev release + this commit
+http://drupalcode.org/project/og_webform.git/commit/b60f03a
+
+Features needs to recognize menu items as custom so the config is exported/imported
+Patch from https://drupal.org/comment/7867325#comment-7867325
+menu_links_customized-927576-15.patch
+
+Panelizer patch to expose a global Drupal user permission allowing users to select
+panelizer panel variant on node edit form. https://drupal.org/node/1968876
+Patch from comment: https://drupal.org/node/1968876#comment-7724613
+https://drupal.org/files/1968876-10-panelizer-choice_permission_check_display_mode.patch
+
+Media module patch so typing in the Media browser autocomplete filter while AJAX is running redirects to upload tab instead of homepage.
+Patch at https://drupal.org/node/1975836#comment-8386323
+https://drupal.org/files/issues/media-exposed-filter-fix-1975836-2.patch
+
+Patch to avoid double encoding of collapsible pane title handles
+https://drupal.org/node/2155455
+https://drupal.org/files/issues/pane-title-encoding-error-2155455-1.patch
+
+Features patch so multiple menu items can have a unique identifier and to prevent conflicts
+https://drupal.org/files/features-multiple-link-path-927566-72.patch
+https://drupal.org/node/927566#comment-7867375
+
+Features patch to prevent menu links from disabled features from being created
+This is an old work around that did not have consensus from the community
+https://drupal.org/node/1241108
+https://drupal.org/files/1241108-d7-1.patch
+
+Subscriptions patch adds option to disable fieldset wrapper output
+https://drupal.org/node/2269169
+https://drupal.org/files/issues/subscriptions-disable-fieldset-wrapper-2269169-5.patch
+
+Subscriptions patch changes help text in subscribe form to remove overly complex sentence and 
+add simple link to manage subscriptions.
+subscriptions-change-help-text-subscribe-form.patch
+
+More Buttons module was preventing validate hooks from running on node forms
+https://drupal.org/node/1414898
+https://drupal.org/files/mb-1414898-1-fix-validation-hooks.patch
+
+More Buttons module submit callback was preventing nodes from being created
+https://drupal.org/node/1414908#comment-8804439
+https://drupal.org/files/issues/mb-1414908-remove-callback-function.patch
+
+Features module prevents Drupal site install from completing certain times when a permission is exported to features
+that requires a module to be enabled/available before the permission gets turned on
+https://drupal.org/node/1975512
+https://drupal.org/node/1975512#comment-7606837
+https://drupal.org/files/features_user_permission_module-1975512-12.patch
+
+Views Tree patch to support a collapsible setting
+https://drupal.org/node/1538414
+https://www.drupal.org/files/issues/views_tree-collapsible-support-1538414-12.patch
+
+Workbench Media module provides the Media module's file/add form under another path and doesn't check for the plupload module.
+This patch adds a check for plupload and multiform to allow the plupload library to work here. Patch file is mal-formatted
+but I didn't reroll and resubmit.
+https://drupal.org/node/2268005
+https://drupal.org/files/issues/multiupload.patch
+
+Workbench Moderation causes the View Published tab to be visible for logged in users that are not members of a og group
+https://drupal.org/node/1691594#comment-8886399
+https://drupal.org/files/issues/workbench_moderation-hide-view-tab-1691594.patch
+
+Multiple forms module with Media & Plupload allows users to save uploaded files without required metadata fields.
+This patch isn't perfect but helps.
+https://www.drupal.org/node/1663212#comment-7591985
+https://www.drupal.org/files/multiform-1663212_1.patch
+
+'Less than' operator for contextual arguments
+https://www.drupal.org/node/1417886#comment-9053203
+https://www.drupal.org/files/issues/date-lt-ops-contextual-arguments-1417886-23.patch
+
+Rate module needed Display Suite integration
+https://www.drupal.org/node/1069906#comment-8140551
+https://www.drupal.org/files/issues/rate-ds-1069906-39.patch
+
+Voting Rules module causes alert on Reports page:
+“The following tokens or token types are missing required name and/or description information: $info['tokens']['vote_results']['count-vote-cache-id’]…”
+https://www.drupal.org/node/1268394#comment-5613250
+https://www.drupal.org/files/voting_rules_missing_token_description-1268394-14.patch
+
+Rate module ajax fails when multiples of the same widget are displayed
+https://www.drupal.org/node/2213317#comment-8711015
+https://www.drupal.org/files/issues/rate-ahah_issues_with_mismatched_widget_ids-2213317-7.patch
+
+Rate module expiration errors
+https://www.drupal.org/node/1565120
+https://www.drupal.org/files/rate-expiration-1565120-1.patch
+
+CKEditor can’t find theme css
+https://www.drupal.org/node/2211217
+https://www.drupal.org/files/issues/ckeditor-theme-css-fails-to-translate-URI-2211217-1.patch
+
+CKEditor has wrong path in css to minor admin images in module
+https://www.drupal.org/node/2323149
+ckeditor-admin-css-images-2323149-1.patch
+
+Options elements don't work in Form Builder after Webform upgrade beyond 4.0-beta3
+https://www.drupal.org/node/2383285#comment-9678125
+https://www.drupal.org/files/issues/form_builder-options_element_hidden-2383285-15.patch
+
+Ctools - Panel for node view load resources twice, hanging up the Gallery node view js
+https://www.drupal.org/node/2422123#comment-9689933
+https://www.drupal.org/files/issues/ctools-fix_entity_view_hooks_invoked_twice-2422123-7.patch
+
+Google Search Appliance custom menu path for search results page
+https://www.drupal.org/node/2219513#comment-10447105
+https://www.drupal.org/files/issues/google_appliance-dynamic_menu_item-2219513-12.patch
+
+Sub-Agency required but shouldn't be
+https://www.drupal.org/node/2597385#comment-10474730
+https://www.drupal.org/files/issues/dont-require-subagency-2597385-2.patch
+
+Remove unused js/dap.min.js from module
+https://www.drupal.org/node/2597426#comment-10474822
+https://www.drupal.org/files/issues/remove-unused-javascript-2597426-2.patch
+
+Setting usasearch_action_domain to include a protocol breaks either javascript or the search box
+https://www.drupal.org/node/2516884#comment-10076884
+https://www.drupal.org/files/issues/setting-2516884-1.patch
+
+extra white space causing bad html
+https://www.drupal.org/node/2475367#comment-9852443
+https://www.drupal.org/files/issues/extra_white_space-2475367-1.patch
